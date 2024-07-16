@@ -1,9 +1,24 @@
 {
     "wallpaper": "https://jianbian.chuqiuyu.workers.dev",
-    "spider": "https://gh.con.sh/https://raw.githubusercontent.com/Amanchi1208/amanchi1208.github.io/main/jar/pg.jar",
+    "spider": "https://gh.con.sh/https://github.com/Amanchi1208/am/raw/main/jar/pg.jar",
     "lives": [
         {
-            "name": "live",
+            "name": "live-1",
+            "type": 0,
+            "url": "http://127.0.0.1:9978/proxy?do=live&url=https://cik03-cos.7moor-fs1.com/im/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/cb93309b-a570-488f-8b3b-ccdfd5dea98a/2024-07-10/2024-07-10_11:14:36/1720581276347/44199311/li.txt",
+            "playerType": 1,
+            "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo": "https://epg.112114.xyz/logo/{name}.png",
+            "timeout": 10,
+            "catchup": {
+                "days": "7",
+                "type": "append",
+                "regex": "/PLTV/",
+                "source": "?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
+            }
+        },
+        {
+            "name": "live-2",
             "type": 0,
             "url": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1715581924675/live2.txt",
             "playerType": 1,
@@ -16,6 +31,37 @@
                 "regex": "/PLTV/",
                 "source": "?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
             }
+        },
+        {
+            "name": "live-3",
+            "type": 0,
+            "url": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1716213337323/live3.txt",
+            "playerType": 1,
+            "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo": "https://epg.112114.xyz/logo/{name}.png",
+            "timeout": 10,
+            "catchup": {
+                "days": "7",
+                "type": "append",
+                "regex": "/PLTV/",
+                "source": "?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
+            }
+        },
+        {
+            "name": "高清",
+            "type": 0,
+            "url": "http://127.0.0.1:9978/proxy?do=live&url=https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1720866116574/8m.txt",
+            "playerType": 1,
+            "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo": "https://epg.112114.xyz/logo/{name}.png",
+            "timeout": 10,
+            "catchup": {
+                "days": "7",
+                "type": "append",
+                "regex": "/PLTV/",
+                "source": "?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
+            },
+            "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
         }
     ],
     "sites": [
@@ -31,7 +77,7 @@
                 "type": "rect",
                 "ratio": 1.433
             },
-            "api": "https://gh.con.sh/https://raw.githubusercontent.com/Amanchi1208/amanchi1208.github.io/main/js/search.js"
+            "api": "https://gh.con.sh/https://github.com/Amanchi1208/am/raw/main/js/search.js"
         },
         {
             "key": "酷看",
@@ -67,6 +113,30 @@
             "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1720708879516/okjpg.txt",
             "timeout": 10
         },
+                {
+                    "key": "河马",
+                    "name": "河马",
+                    "type": 3,
+                    "api": "csp_Oka",
+                    "searchable": 1,
+                    "quickSearch": 1,
+                    "filterable": 1,
+                    "timeout": 10,
+                    "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1720708879516/okjpg.txt",
+                    "ext": "{\"cateUrl\":\"https://www.hemahd.com/tags/{cateId}--------{page}---.html\", \"cate\":\"电影$1#电视剧$2#动漫$3#综艺$4\", \"search\":\"/sou/{search}-------------.html\"}"
+                },
+                {
+                    "key": "桃子",
+                    "name": "桃子",
+                    "type": 3,
+                    "api": "csp_Oka",
+                    "searchable": 1,
+                    "quickSearch": 1,
+                    "filterable": 1,
+                    "timeout": 10,
+                    "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1720708879516/okjpg.txt",
+                    "ext": "{\"cateUrl\":\"https://www.taozi007.com/show/{cateId}--------{page}---.html\", \"cate\":\"电影$1#剧集$2#动漫$3#综艺$4#短剧$5\",\"playFrom\":\".module-tab-items .module-tab-item span\",\"playUrl\":\".module-list .module-play-list\", \"search\":\"/search/{search}-------------.html\", \"webview\":1}"
+                },
         {
             "key": "JOJO",
             "name": "JOJO",
@@ -196,8 +266,8 @@
                 "type": "rect",
                 "ratio": 1.433
             },
-            "jar": "https://gh.con.sh/https://raw.githubusercontent.com/Amanchi1208/amanchi1208.github.io/main/jar/XBPQ.jar",
-            "ext": "https://gh.con.sh/https://raw.githubusercontent.com/Amanchi1208/amanchi1208.github.io/main/json/xb.json"
+            "jar": "https://gh.con.sh/https://github.com/Amanchi1208/am/raw/main/jar/XBPQ.jar",
+            "ext": "https://gh.con.sh/https://github.com/Amanchi1208/am/raw/main/json/xb.json"
         },
         {
             "key": "BT天堂",
@@ -213,8 +283,8 @@
                 "type": "rect",
                 "ratio": 1.433
             },
-            "ext": "https://gh.con.sh/https://raw.githubusercontent.com/Amanchi1208/amanchi1208.github.io/main/json/bttt.json",
-            "jar": "https://gh.con.sh/https://raw.githubusercontent.com/Amanchi1208/amanchi1208.github.io/main/jar/XBPQ.jar"
+            "ext": "https://gh.con.sh/https://github.com/Amanchi1208/am/raw/main/json/bttt.json",
+            "jar": "https://gh.con.sh/https://github.com/Amanchi1208/am/raw/main/jar/XBPQ.jar"
         },
         {
             "key": "布谷",
@@ -230,8 +300,8 @@
                 "type": "rect",
                 "ratio": 1.433
             },
-            "jar": "https://gh.con.sh/https://raw.githubusercontent.com/Amanchi1208/amanchi1208.github.io/main/jar/XBPQ.jar",
-            "ext": "https://gh.con.sh/https://raw.githubusercontent.com/Amanchi1208/amanchi1208.github.io/main/json/bg.json"
+            "jar": "https://gh.con.sh/https://github.com/Amanchi1208/am/raw/main/jar/XBPQ.jar",
+            "ext": "https://gh.con.sh/https://github.com/Amanchi1208/am/raw/main/json/bg.json"
         },
         {
             "key": "haokongbu",
@@ -247,8 +317,8 @@
                 "type": "rect",
                 "ratio": 1.433
             },
-            "ext": "https://gh.con.sh/https://raw.githubusercontent.com/Amanchi1208/amanchi1208.github.io/main/json/HKB.json",
-            "jar": "https://gh.con.sh/https://raw.githubusercontent.com/Amanchi1208/amanchi1208.github.io/main/jar/XBPQ.jar"
+            "ext": "https://gh.con.sh/https://github.com/Amanchi1208/am/raw/main/json/HKB.json",
+            "jar": "https://gh.con.sh/https://github.com/Amanchi1208/am/raw/main/jar/XBPQ.jar"
         },
         {
             "key": "达达龟",
@@ -263,8 +333,8 @@
                 "type": "rect",
                 "ratio": 1.433
             },
-            "api": "https://gitee.com/okjack/okk/raw/master/drpy/drpy2.min.js",
-            "ext": "https://gitee.com/okjack/okk/raw/master/js/dadagui.js",
+            "api": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1720319529030/drpy2.min.txt?file=drpy2.min.js",
+            "ext": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1720319885304/dadagui.txt",
             "timeout": 15
         },
         {
@@ -280,8 +350,8 @@
                 "type": "rect",
                 "ratio": 1.433
             },
-            "api": "https://gitee.com/okjack/okk/raw/master/drpy/drpy2.min.js",
-            "ext": "https://gitee.com/okjack/okk/raw/master/js/libvio.js"
+            "api": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1720319529030/drpy2.min.txt?file=drpy2.min.js",
+            "ext": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1720580925183/libvio.txt"
         },
         {
             "key": "ddys",
@@ -296,8 +366,8 @@
                 "type": "rect",
                 "ratio": 1.433
             },
-            "api": "https://gitee.com/okjack/okk/raw/master/drpy/drpy2.min.js",
-            "ext": "https://gitee.com/okjack/okk/raw/master/js/ddys.js",
+            "api": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1720319529030/drpy2.min.txt?file=drpy2.min.js",
+            "ext": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1720319885464/ddys.txt",
             "timeout": 15
         },
         {
@@ -345,8 +415,8 @@
                 "type": "rect",
                 "ratio": 1.433
             },
-            "jar": "https://gh.con.sh/https://raw.githubusercontent.com/Amanchi1208/amanchi1208.github.io/main/jar/XBPQ.jar",
-            "ext": "https://gh.con.sh/https://raw.githubusercontent.com/Amanchi1208/amanchi1208.github.io/main/json/wc.json"
+            "jar": "https://gh.con.sh/https://github.com/Amanchi1208/am/raw/main/jar/XBPQ.jar",
+            "ext": "https://gh.con.sh/https://github.com/Amanchi1208/am/raw/main/json/wc.json"
         },
         {
             "key": "黑狐影院",
@@ -362,8 +432,8 @@
                 "type": "rect",
                 "ratio": 1.433
             },
-            "jar": "https://gh.con.sh/https://raw.githubusercontent.com/Amanchi1208/amanchi1208.github.io/main/jar/XBPQ.jar",
-            "ext": "https://gh.con.sh/https://raw.githubusercontent.com/Amanchi1208/amanchi1208.github.io/main/json/hh.json"
+            "jar": "https://gh.con.sh/https://github.com/Amanchi1208/am/raw/main/jar/XBPQ.jar",
+            "ext": "https://gh.con.sh/https://github.com/Amanchi1208/am/raw/main/json/hh.json"
         },
         {
             "key": "电影先生",
@@ -379,8 +449,8 @@
                 "type": "rect",
                 "ratio": 1.433
             },
-            "jar": "https://gh.con.sh/https://raw.githubusercontent.com/Amanchi1208/amanchi1208.github.io/main/jar/XBPQ.jar",
-            "ext": "https://gh.con.sh/https://raw.githubusercontent.com/Amanchi1208/amanchi1208.github.io/main/json/dy.json"
+            "jar": "https://gh.con.sh/https://github.com/Amanchi1208/am/raw/main/jar/XBPQ.jar",
+            "ext": "https://gh.con.sh/https://github.com/Amanchi1208/am/raw/main/json/dy.json"
         },
         {
             "key": "麻衣影院",
@@ -396,8 +466,8 @@
                 "type": "rect",
                 "ratio": 1.433
             },
-            "jar": "https://gh.con.sh/https://raw.githubusercontent.com/Amanchi1208/amanchi1208.github.io/main/jar/XBPQ.jar",
-            "ext": "https://gh.con.sh/https://raw.githubusercontent.com/Amanchi1208/amanchi1208.github.io/main/json/my.json"
+            "jar": "https://gh.con.sh/https://github.com/Amanchi1208/am/raw/main/jar/XBPQ.jar",
+            "ext": "https://gh.con.sh/https://github.com/Amanchi1208/am/raw/main/json/my.json"
         },
         {
             "key": "csp_Kuaikan",
@@ -444,7 +514,7 @@
                 "type": "rect",
                 "ratio": 1.433
             },
-            "ext": "https://gh.con.sh/https://raw.githubusercontent.com/Amanchi1208/amanchi1208.github.io/main/json/jp.json"
+            "ext": "https://gh.con.sh/https://github.com/Amanchi1208/am/raw/main/json/jp.json"
         },
         {
             "key": "迅雷8",
@@ -460,8 +530,8 @@
                 "type": "rect",
                 "ratio": 1.433
             },
-            "jar": "https://gh.con.sh/https://raw.githubusercontent.com/Amanchi1208/amanchi1208.github.io/main/jar/XBPQ.jar",
-            "ext": "https://gh.con.sh/https://raw.githubusercontent.com/Amanchi1208/amanchi1208.github.io/main/json/xl.json"
+            "jar": "https://gh.con.sh/https://github.com/Amanchi1208/am/raw/main/jar/XBPQ.jar",
+            "ext": "https://gh.con.sh/https://github.com/Amanchi1208/am/raw/main/json/xl.json"
         },
         {
             "key": "新6V",
@@ -673,7 +743,7 @@
             "style": {
                 "type": "list"
             },
-            "ext": "https://gh.con.sh/https://raw.githubusercontent.com/Amanchi1208/amanchi1208.github.io/main/txt/token.txt"
+            "ext": "https://gh.con.sh/https://github.com/Amanchi1208/am/raw/main/txt/token.txt"
         },
         {
             "key": "本地",
@@ -691,8 +761,8 @@
             "searchable": 0,
             "quickSearch": 0,
             "changeable": 0,
-            "ext": "https://gh.con.sh/https://raw.githubusercontent.com/Amanchi1208/amanchi1208.github.io/main/lib/tokenm.json",
-            "jar": "https://gh.con.sh/https://raw.githubusercontent.com/Amanchi1208/amanchi1208.github.io/main/jar/fm.jar"
+            "ext": "https://gh.con.sh/https://github.com/Amanchi1208/am/raw/main/lib/tokenm.json",
+            "jar": "https://gh.con.sh/https://github.com/Amanchi1208/am/raw/main/jar/fm.jar"
         }
     ],
     "doh": [
