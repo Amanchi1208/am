@@ -101,6 +101,34 @@
             ]
         },
         {
+            "key": "php_huaweiba",
+            "name": "华为吧克隆",
+            "type": 4,
+            "api": "https://t4.doube.eu.org/huaweiba.php",
+            "searchable": 1
+        },
+        {
+            "key": "php_madou",
+            "name": "tudou",
+            "type": 4,
+            "api": "https://t4.doube.eu.org/madou.php",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.33
+            }
+        },
+        {
+            "key": "实验金鹰",
+            "name": "实验金鹰",
+            "type": 1,
+            "api": "http://zhangqun66.serv00.net/jy.php",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
             "key": "bili",
             "name": "bili",
             "type": 3,
