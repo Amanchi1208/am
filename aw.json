@@ -38,7 +38,6 @@
             "name": "海外看",
             "type": 1,
             "api": "https://json.heimuer.xyz/api.php/provide/vod",
-            "playurl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=proxy&url=https://tang.hz.cz/jx/hmr?noads=",
             "playerType": 2,
             "searchable": 1,
             "quickSearch": 1,
