@@ -3,65 +3,13 @@
     "spider": "https://gh.con.sh/https://github.com/Amanchi1208/am/raw/main/jar/pg.jar",
     "lives": [
         {
-            "name": "live-1",
+            "name": "live",
             "type": 0,
-            "url": "http://127.0.0.1:9978/proxy?do=live&url=https://cik03-cos.7moor-fs1.com/im/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/cb93309b-a570-488f-8b3b-ccdfd5dea98a/2024-07-10/2024-07-10_11:14:36/1720581276347/44199311/li.txt",
+            "url": "https://tang.hz.cz/zb/stv?token=1d9c9a7b",
             "playerType": 1,
             "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
             "logo": "https://epg.112114.xyz/logo/{name}.png",
-            "timeout": 10,
-            "catchup": {
-                "days": "7",
-                "type": "append",
-                "regex": "/PLTV/",
-                "source": "?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
-            }
-        },
-        {
-            "name": "live-2",
-            "type": 0,
-            "url": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1715581924675/live2.txt",
-            "playerType": 1,
-            "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-            "logo": "https://epg.112114.xyz/logo/{name}.png",
-            "timeout": 10,
-            "catchup": {
-                "days": "7",
-                "type": "append",
-                "regex": "/PLTV/",
-                "source": "?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
-            }
-        },
-        {
-            "name": "live-3",
-            "type": 0,
-            "url": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1716213337323/live3.txt",
-            "playerType": 1,
-            "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-            "logo": "https://epg.112114.xyz/logo/{name}.png",
-            "timeout": 10,
-            "catchup": {
-                "days": "7",
-                "type": "append",
-                "regex": "/PLTV/",
-                "source": "?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
-            }
-        },
-        {
-            "name": "高清",
-            "type": 0,
-            "url": "http://127.0.0.1:9978/proxy?do=live&url=https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1720866116574/8m.txt",
-            "playerType": 1,
-            "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-            "logo": "https://epg.112114.xyz/logo/{name}.png",
-            "timeout": 10,
-            "catchup": {
-                "days": "7",
-                "type": "append",
-                "regex": "/PLTV/",
-                "source": "?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
-            },
-            "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+            "timeout": 10
         }
     ],
     "sites": [
@@ -78,6 +26,165 @@
                 "ratio": 1.433
             },
             "api": "https://gh.con.sh/https://github.com/Amanchi1208/am/raw/main/js/search.js"
+        },
+        {
+            "key": "haiwaikan",
+            "name": "HMR",
+            "type": 4,
+            "api": "https://tang.hz.cz/power/hme?token=1d9c9a7b",
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.433
+            }
+        },
+        {
+            "key": "T4-安博",
+            "name": "安博",
+            "type": 4,
+            "api": "https://tang.hz.cz/power/ub18?token=1d9c9a7b",
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.433
+            }
+        },
+        {
+            "key": "libvio",
+            "name": "libvio",
+            "type": 3,
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "style": {
+                "type": "rect",
+                "ratio": 1.433
+            },
+            "api": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1720319529030/drpy2.min.txt?file=drpy2.min.js",
+            "ext": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1720580925183/libvio.txt"
+        },
+        {
+            "key": "ddys",
+            "name": "低端",
+            "type": 3,
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "style": {
+                "type": "rect",
+                "ratio": 1.433
+            },
+            "api": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1720319529030/drpy2.min.txt?file=drpy2.min.js",
+            "ext": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1720319885464/ddys.txt",
+            "timeout": 15
+        },
+        {
+            "key": "新6V",
+            "name": "新6V",
+            "type": 3,
+            "api": "csp_Xb6v",
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.433
+            }
+        },
+        {
+            "key": "csp_Kuaikan",
+            "name": "快看",
+            "type": 3,
+            "api": "csp_Kuaikan",
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "changeable": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.433
+            }
+        },
+        {
+            "key": "csp_Czsapp",
+            "name": "厂长",
+            "type": 3,
+            "api": "csp_Czsapp",
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "changeable": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.433
+            },
+            "ext": "https://WWW.CZYS.TOP/"
+        },
+        {
+            "key": "荐片",
+            "name": "荐片",
+            "type": 3,
+            "api": "csp_Jianpian",
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.433
+            },
+            "ext": "https://gh.con.sh/https://github.com/Amanchi1208/am/raw/main/json/jp.json"
+        },
+        {
+            "key": "JOJO",
+            "name": "JOJO",
+            "type": 3,
+            "api": "csp_Jiohub",
+            "searchable": 1,
+            "playerType": 2,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "style": {
+                "type": "rect",
+                "ratio": 1.433
+            },
+            "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1720708879516/okjpg.txt",
+            "timeout": 10
+        },
+        {
+            "key": "小白",
+            "name": "小白",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "playerType": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.433
+            },
+            "jar": "https://gh.con.sh/https://github.com/Amanchi1208/am/raw/main/jar/XBPQ.jar",
+            "ext": "https://gh.con.sh/https://github.com/Amanchi1208/am/raw/main/json/xb.json"
         },
         {
             "key": "酷看",
@@ -122,6 +229,10 @@
             "quickSearch": 1,
             "filterable": 1,
             "timeout": 10,
+            "style": {
+                "type": "rect",
+                "ratio": 1.433
+            },
             "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1720708879516/okjpg.txt",
             "ext": "{\"cateUrl\":\"https://www.hemahd.com/tags/{cateId}--------{page}---.html\", \"cate\":\"电影$1#电视剧$2#动漫$3#综艺$4\", \"search\":\"/sou/{search}-------------.html\"}"
         },
@@ -138,25 +249,8 @@
             "ext": "{\"cateUrl\":\"https://www.taozi007.com/show/{cateId}--------{page}---.html\", \"cate\":\"电影$1#剧集$2#动漫$3#综艺$4#短剧$5\",\"playFrom\":\".module-tab-items .module-tab-item span\",\"playUrl\":\".module-list .module-play-list\", \"search\":\"/search/{search}-------------.html\", \"webview\":1}"
         },
         {
-            "key": "JOJO",
-            "name": "JOJO",
-            "type": 3,
-            "api": "csp_Jiohub",
-            "searchable": 1,
-            "playerType": 2,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "style": {
-                "type": "rect",
-                "ratio": 1.433
-            },
-            "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1720708879516/okjpg.txt",
-            "timeout": 10
-        },
-        {
             "key": "短剧",
-            "name": "无忧短剧",
+            "name": "短剧",
             "type": 3,
             "api": "csp_Duanj",
             "searchable": 1,
@@ -164,23 +258,6 @@
             "quickSearch": 1,
             "filterable": 1,
             "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1.433
-            },
-            "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1720708879516/okjpg.txt",
-            "timeout": 10
-        },
-        {
-            "key": "ikBot",
-            "name": "ikBot",
-            "type": 3,
-            "api": "csp_Ikanbot",
-            "searchable": 1,
-            "playerType": 2,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 1,
             "style": {
                 "type": "rect",
                 "ratio": 1.433
@@ -203,52 +280,6 @@
                 "ratio": 1.433
             },
             "ext": "http://op.ysdqjs.cn$$$null$$$1"
-        },
-        {
-            "key": "haiwaikan",
-            "name": "海外看",
-            "type": 4,
-            "api": "https://tang.hz.cz/power/hme?token=1d9c9a7b",
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1.433
-            }
-        },
-        {
-            "key": "T4-安博",
-            "name": "安博(T4)",
-            "type": 4,
-            "api": "https://tang.hz.cz/power/ub18?token=1d9c9a7b",
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1.433
-            }
-        },
-        {
-            "key": "追剧",
-            "name": "追剧",
-            "type": 3,
-            "api": "csp_TTian",
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1.433
-            },
-            "ext": "http://app.kzjtv.com$$$null$$$1"
         },
         {
             "key": "Bdys_spider",
@@ -281,23 +312,6 @@
                 "ratio": 1.433
             },
             "ext": "null$$$null$$$1"
-        },
-        {
-            "key": "小白",
-            "name": "小白",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "playerType": 1,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1.433
-            },
-            "jar": "https://gh.con.sh/https://github.com/Amanchi1208/am/raw/main/jar/XBPQ.jar",
-            "ext": "https://gh.con.sh/https://github.com/Amanchi1208/am/raw/main/json/xb.json"
         },
         {
             "key": "BT天堂",
@@ -349,72 +363,6 @@
             },
             "ext": "https://gh.con.sh/https://github.com/Amanchi1208/am/raw/main/json/HKB.json",
             "jar": "https://gh.con.sh/https://github.com/Amanchi1208/am/raw/main/jar/XBPQ.jar"
-        },
-        {
-            "key": "达达龟",
-            "name": "达达",
-            "type": 3,
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "style": {
-                "type": "rect",
-                "ratio": 1.433
-            },
-            "api": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1720319529030/drpy2.min.txt?file=drpy2.min.js",
-            "ext": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1720319885304/dadagui.txt",
-            "timeout": 15
-        },
-        {
-            "key": "libvio",
-            "name": "libvio",
-            "type": 3,
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "style": {
-                "type": "rect",
-                "ratio": 1.433
-            },
-            "api": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1720319529030/drpy2.min.txt?file=drpy2.min.js",
-            "ext": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1720580925183/libvio.txt"
-        },
-        {
-            "key": "ddys",
-            "name": "低端",
-            "type": 3,
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "style": {
-                "type": "rect",
-                "ratio": 1.433
-            },
-            "api": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1720319529030/drpy2.min.txt?file=drpy2.min.js",
-            "ext": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1720319885464/ddys.txt",
-            "timeout": 15
-        },
-        {
-            "key": "NanGua",
-            "name": "南瓜",
-            "type": 3,
-            "api": "csp_NanGua",
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "style": {
-                "type": "rect",
-                "ratio": 1.433
-            },
-            "ext": "null$$$1"
         },
         {
             "key": "Mayiys",
@@ -500,53 +448,6 @@
             "ext": "https://gh.con.sh/https://github.com/Amanchi1208/am/raw/main/json/my.json"
         },
         {
-            "key": "csp_Kuaikan",
-            "name": "快看",
-            "type": 3,
-            "api": "csp_Kuaikan",
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1.433
-            }
-        },
-        {
-            "key": "csp_Czsapp",
-            "name": "厂长",
-            "type": 3,
-            "api": "csp_Czsapp",
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1.433
-            },
-            "ext": "https://WWW.CZYS.TOP/"
-        },
-        {
-            "key": "荐片",
-            "name": "荐片",
-            "type": 3,
-            "api": "csp_Jianpian",
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1.433
-            },
-            "ext": "https://gh.con.sh/https://github.com/Amanchi1208/am/raw/main/json/jp.json"
-        },
-        {
             "key": "迅雷8",
             "name": "迅雷",
             "type": 3,
@@ -562,21 +463,6 @@
             },
             "jar": "https://gh.con.sh/https://github.com/Amanchi1208/am/raw/main/jar/XBPQ.jar",
             "ext": "https://gh.con.sh/https://github.com/Amanchi1208/am/raw/main/json/xl.json"
-        },
-        {
-            "key": "新6V",
-            "name": "新6V",
-            "type": 3,
-            "api": "csp_Xb6v",
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1.433
-            }
         },
         {
             "key": "JustLive",
@@ -607,25 +493,6 @@
             }
         },
         {
-            "key": "bili",
-            "name": "bili",
-            "type": 3,
-            "api": "csp_Bili",
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1.579
-            },
-            "ext": {
-                "type": "沙雕动画#帕梅拉#纪录片#音乐#影视#知识#美食#风光#田园",
-                "cookie": ""
-            }
-        },
-        {
             "key": "巴士",
             "name": "巴士",
             "type": 3,
@@ -638,127 +505,6 @@
                 "type": "rect",
                 "ratio": 1.433
             }
-        },
-        {
-            "key": "csp_Ysj",
-            "name": "异界",
-            "type": 3,
-            "api": "csp_Ysj",
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "style": {
-                "type": "rect",
-                "ratio": 1.433
-            }
-        },
-        {
-            "key": "量子",
-            "name": "量子",
-            "type": 1,
-            "api": "https://cj.lziapi.com/api.php/provide/vod",
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 0,
-            "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1.433
-            }
-        },
-        {
-            "key": "ikun",
-            "name": "ikun",
-            "type": 1,
-            "api": "https://ikunzyapi.com/api.php/provide/vod/?",
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "style": {
-                "type": "rect",
-                "ratio": 1.433
-            }
-        },
-        {
-            "key": "非凡",
-            "name": "非凡",
-            "type": 1,
-            "api": "http://cj.ffzyapi.com/api.php/provide/vod",
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 0,
-            "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1.433
-            }
-        },
-        {
-            "key": "暴風",
-            "name": "暴風",
-            "type": 1,
-            "api": "https://bfzyapi.com/api.php/provide/vod",
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 0,
-            "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1.433
-            }
-        },
-        {
-            "key": "索尼",
-            "name": "索尼",
-            "type": 1,
-            "api": "https://suoniapi.com/api.php/provide/vod",
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 0,
-            "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1.433
-            },
-            "categories": [
-                "动作片",
-                "喜剧片",
-                "爱情片",
-                "科幻片",
-                "恐怖片",
-                "剧情片",
-                "战争片",
-                "国产剧",
-                "欧美剧",
-                "韩剧",
-                "日剧",
-                "港剧",
-                "台剧",
-                "泰剧",
-                "海外剧",
-                "纪录片",
-                "大陆综艺",
-                "日韩综艺",
-                "港台综艺",
-                "欧美综艺",
-                "国产动漫",
-                "日韩动漫",
-                "欧美动漫",
-                "动画片",
-                "港台动漫",
-                "海外动漫",
-                "演唱会",
-                "体育赛事",
-                "篮球",
-                "足球",
-                "预告片",
-                "斯诺克",
-                "影视解说"
-            ]
         },
         {
             "key": "小纸条",
@@ -905,17 +651,6 @@
             ]
         },
         {
-            "host": "https://api.live.bilibili.com",
-            "rule": [
-                "bilivideo.com",
-                "/index.m3u8"
-            ],
-            "filter": [
-                "data.bilibili.com/log/web",
-                "i0.hdslb.com/bfs/live/"
-            ]
-        },
-        {
             "host": "www.agemys.cc",
             "rule": [
                 "cdn-tos",
@@ -981,6 +716,43 @@
             ],
             "script": [
                 "document.getElementsByClassName('swal-button swal-button--confirm')[0].click()"
+            ]
+        },
+        {
+            "host": "m.ysxs8.vip",
+            "rule": [
+                "ysting.ysxs8.vip:81",
+                "xmcdn.com"
+            ],
+            "filter": []
+        },
+        {
+            "host": "hdmoli.com",
+            "rule": [
+                ".m3u8"
+            ]
+        },
+        {
+            "host": "www.agemys.cc",
+            "rule": [
+                "cdn-tos",
+                "obj/tos-cn"
+            ]
+        },
+        {
+            "host": "www.fun4k.com",
+            "rule": [
+                "https://hd.ijycnd.com/play",
+                "index.m3u8"
+            ]
+        },
+        {
+            "host": "zjmiao.com",
+            "rule": [
+                "play.videomiao.vip/API.php",
+                "time=",
+                "key=",
+                "path="
             ]
         },
         {
