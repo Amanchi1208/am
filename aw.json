@@ -4,7 +4,7 @@
     "lives": [
         {
             "name": "live",
-            "type": 4,
+            "type": 0,
             "url": "https://tang.hz.cz/zb/stv?token=1d9c9a7b",
             "playerType": 1,
             "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
