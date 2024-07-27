@@ -244,6 +244,10 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
+            "style": {
+                "type": "rect",
+                "ratio": 1.433
+            },
             "timeout": 10,
             "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1720708879516/okjpg.txt",
             "ext": "{\"cateUrl\":\"https://www.taozi007.com/show/{cateId}--------{page}---.html\", \"cate\":\"电影$1#剧集$2#动漫$3#综艺$4#短剧$5\",\"playFrom\":\".module-tab-items .module-tab-item span\",\"playUrl\":\".module-list .module-play-list\", \"search\":\"/search/{search}-------------.html\", \"webview\":1}"
