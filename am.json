@@ -205,7 +205,7 @@
         },
         {
             "key": "小苹果",
-            "name": "小苹果",
+            "name": "苹果",
             "type": 3,
             "api": "csp_Xpg",
             "searchable": 1,
@@ -282,22 +282,6 @@
             "ext": "http://op.ysdqjs.cn$$$null$$$1"
         },
         {
-            "key": "Bdys_spider",
-            "name": "哔滴",
-            "api": "csp_Bdys01",
-            "type": 3,
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "style": {
-                "type": "rect",
-                "ratio": 1.433
-            },
-            "ext": "https://www.yjys01.com/$$$null$$$1"
-        },
-        {
             "key": "Bttwo",
             "name": "Bttwo",
             "type": 3,
@@ -312,23 +296,6 @@
                 "ratio": 1.433
             },
             "ext": "null$$$null$$$1"
-        },
-        {
-            "key": "BT天堂",
-            "name": "BT",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "playerType": 1,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1.433
-            },
-            "ext": "https://gh.con.sh/https://github.com/Amanchi1208/am/raw/main/json/bttt.json",
-            "jar": "https://gh.con.sh/https://github.com/Amanchi1208/am/raw/main/jar/XBPQ.jar"
         },
         {
             "key": "布谷",
@@ -346,23 +313,6 @@
             },
             "jar": "https://gh.con.sh/https://github.com/Amanchi1208/am/raw/main/jar/XBPQ.jar",
             "ext": "https://gh.con.sh/https://github.com/Amanchi1208/am/raw/main/json/bg.json"
-        },
-        {
-            "key": "haokongbu",
-            "name": "HKB",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "playerType": 1,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1.433
-            },
-            "ext": "https://gh.con.sh/https://github.com/Amanchi1208/am/raw/main/json/HKB.json",
-            "jar": "https://gh.con.sh/https://github.com/Amanchi1208/am/raw/main/jar/XBPQ.jar"
         },
         {
             "key": "Mayiys",
@@ -397,23 +347,6 @@
             "ext": "https://gh.con.sh/https://github.com/Amanchi1208/am/raw/main/json/wc.json"
         },
         {
-            "key": "黑狐影院",
-            "name": "黑狐",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1.433
-            },
-            "jar": "https://gh.con.sh/https://github.com/Amanchi1208/am/raw/main/jar/XBPQ.jar",
-            "ext": "https://gh.con.sh/https://github.com/Amanchi1208/am/raw/main/json/hh.json"
-        },
-        {
             "key": "电影先生",
             "name": "电影",
             "type": 3,
@@ -431,23 +364,6 @@
             "ext": "https://gh.con.sh/https://github.com/Amanchi1208/am/raw/main/json/dy.json"
         },
         {
-            "key": "麻衣影院",
-            "name": "麻衣",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1.433
-            },
-            "jar": "https://gh.con.sh/https://github.com/Amanchi1208/am/raw/main/jar/XBPQ.jar",
-            "ext": "https://gh.con.sh/https://github.com/Amanchi1208/am/raw/main/json/my.json"
-        },
-        {
             "key": "迅雷8",
             "name": "迅雷",
             "type": 3,
@@ -463,34 +379,6 @@
             },
             "jar": "https://gh.con.sh/https://github.com/Amanchi1208/am/raw/main/jar/XBPQ.jar",
             "ext": "https://gh.con.sh/https://github.com/Amanchi1208/am/raw/main/json/xl.json"
-        },
-        {
-            "key": "JustLive",
-            "name": "JustLive",
-            "type": 3,
-            "api": "csp_JustLive",
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1.433
-            }
-        },
-        {
-            "key": "FirstAid",
-            "name": "急救知识",
-            "type": 3,
-            "api": "csp_FirstAid",
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 3.8
-            }
         },
         {
             "key": "巴士",
@@ -689,15 +577,6 @@
             ],
             "regex": [
                 "is_play_url="
-            ]
-        },
-        {
-            "name": "農民嗅探",
-            "hosts": [
-                "toutiaovod.com"
-            ],
-            "regex": [
-                "video/tos/cn"
             ]
         },
         {
