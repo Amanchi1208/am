@@ -29,7 +29,7 @@
         },
         {
             "key": "haiwaikan",
-            "name": "海外看",
+            "name": "HMR",
             "type": 4,
             "api": "https://tang.hz.cz/power/hme?token=1d9c9a7b",
             "playerType": 2,
