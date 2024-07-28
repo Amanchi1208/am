@@ -73,25 +73,6 @@
             }
         },
         {
-            "key": "bili",
-            "name": "bili",
-            "type": 3,
-            "api": "csp_Bili",
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1.579
-            },
-            "ext": {
-                "type": "沙雕动画#帕梅拉#纪录片#音乐#影视#知识#美食#风光#田园",
-                "cookie": ""
-            }
-        },
-        {
             "key": "新6V",
             "name": "新6V",
             "type": 3,
