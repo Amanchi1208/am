@@ -58,22 +58,6 @@
             }
         },
         {
-            "key": "欧乐影院",
-            "name": "欧乐影院|海外",
-            "type": 3,
-            "api": "csp_Olevod",
-            "quickSearch": 1,
-            "playerType": 2,
-            "searchable": 1,
-            "filterable": 1,
-            "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1.433
-            },
-            "jar":"https://github.com/Amanchi1208/am/raw/main/jar/pg.jar"
-        },
-        {
             "key": "新6V",
             "name": "新6V",
             "type": 3,
