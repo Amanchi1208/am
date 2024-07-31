@@ -71,7 +71,7 @@
                 "type": "rect",
                 "ratio": 1.433
             },
-            "jar":"./jar/pg.jar"
+            "jar":"https://github.com/Amanchi1208/am/raw/main/jar/pg.jar"
         },
         {
             "key": "新6V",
