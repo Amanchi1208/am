@@ -58,19 +58,20 @@
             }
         },
         {
-            "key": "huaweiba",
-            "name": "HW8",
-            "type": 4,
-            "api": "https://t4.doube.eu.org/huaweiba.php",
+            "key": "欧乐影院",
+            "name": "欧乐影院|海外",
+            "type": 3,
+            "api": "csp_Olevod",
+            "quickSearch": 1,
             "playerType": 2,
             "searchable": 1,
-            "quickSearch": 1,
             "filterable": 1,
             "changeable": 0,
             "style": {
                 "type": "rect",
                 "ratio": 1.433
-            }
+            },
+            "jar":"./jar/pg.jar"
         },
         {
             "key": "新6V",
