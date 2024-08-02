@@ -10,6 +10,12 @@
             "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
             "logo": "https://epg.112114.xyz/logo/{name}.png",
             "timeout": 10
+        },
+        {
+            "name": "ETH",
+            "api": "https://tang.hz.cz/js/ethtv.js",
+            "type": 3,
+            "ua": "okhttp/4.12.0"
         }
     ],
     "sites": [
