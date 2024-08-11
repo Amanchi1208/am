@@ -1,6 +1,6 @@
 {
     "wallpaper": "https://jianbian.chuqiuyu.workers.dev",
-    "spider": "https://github.com/Amanchi1208/am/raw/main/jar/fm.jar",
+    "spider": "https://github.com/Amanchi1208/am/raw/main/jar/custom_spider.jar",
     "lives": [
         {
             "name": "live",
@@ -68,7 +68,7 @@
             }
         },
         {
-            "key": "T4-安博",
+            "key": "安博",
             "name": "安博",
             "type": 4,
             "api": "https://tang.hz.cz/power/ub18?token=1d9c9a7b",
@@ -87,10 +87,16 @@
             "name": "MXONE",
             "type": 3,
             "api": "csp_XPathFilter",
+            "playerType": 2,
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://github.com/Amanchi1208/am/raw/main/json/ys.json"
+            "changeable": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.433
+            },
+            "ext": "https://4tvbox.ggff.net/ys.json"
         },
         {
             "key": "新6V",
