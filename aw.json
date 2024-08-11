@@ -84,13 +84,13 @@
         },
         {
             "key": "nyys",
-            "name": "NY",
+            "name": "MXONE",
             "type": 3,
             "api": "csp_XPathFilter",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./json/ys.json"
+            "ext": "https://github.com/Amanchi1208/am/raw/main/json/ys.json"
         },
         {
             "key": "新6V",
