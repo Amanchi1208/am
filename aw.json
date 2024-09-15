@@ -3,15 +3,6 @@
     "spider": "https://github.com/Amanchi1208/am/raw/main/jar/custom_spider.jar",
     "lives": [
         {
-            "name": "live",
-            "type": 0,
-            "url": "https://tang.hz.cz/zb/stv?token=68322a7e",
-            "playerType": 1,
-            "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-            "logo": "https://epg.112114.xyz/logo/{name}.png",
-            "timeout": 10
-        },
-        {
             "name": "ETH",
             "api": "https://tang.hz.cz/js/ethtv.js",
             "type": 3,
@@ -41,7 +32,7 @@
             "key": "olys",
             "name": "欧乐",
             "type": 4,
-            "api": "https://tang.hz.cz/power/olelive?token=68322a7e",
+            "api": "https://tang.hz.cz/power/olelive?token=63ab37eb",
             "playerType": 2,
             "searchable": 1,
             "quickSearch": 1,

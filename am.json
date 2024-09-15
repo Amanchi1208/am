@@ -4,12 +4,12 @@
     "lives": [
         {
             "name": "live",
-            "type": 0,
-            "url": "https://tang.hz.cz/zb/stv?token=68322a7e",
-            "playerType": 1,
+            "url": "https://888.iptv543.com/tvlist01.txt",
+            "pass": false,
+            "boot": false,
+            "playerType": 2,
             "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-            "logo": "https://epg.112114.xyz/logo/{name}.png",
-            "timeout": 10
+            "logo": "https://epg.112114.xyz/logo/{name}.png"
         }
     ],
     "sites": [
@@ -31,7 +31,7 @@
             "key": "haiwaikan",
             "name": "HMR",
             "type": 4,
-            "api": "https://tang.hz.cz/power/hme?token=68322a7e",
+            "api": "https://tang.hz.cz/power/hme?token=63ab37eb",
             "playerType": 2,
             "searchable": 1,
             "quickSearch": 1,
@@ -46,7 +46,7 @@
             "key": "T4-安博",
             "name": "安博",
             "type": 4,
-            "api": "https://tang.hz.cz/power/ub18?token=68322a7e",
+            "api": "https://tang.hz.cz/power/ub18?token=63ab37eb",
             "playerType": 2,
             "searchable": 1,
             "quickSearch": 1,
@@ -61,7 +61,7 @@
             "key": "olys",
             "name": "欧乐",
             "type": 4,
-            "api": "https://tang.hz.cz/power/olelive?token=68322a7e",
+            "api": "https://tang.hz.cz/power/olelive?token=63ab37eb",
             "playerType": 2,
             "searchable": 1,
             "quickSearch": 1,
