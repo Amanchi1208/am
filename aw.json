@@ -9,15 +9,6 @@
             "ua": "okhttp/4.12.0"
         },
         {
-            "name": "543",
-            "url": "https://888.iptv543.com/list.php",
-            "pass": false,
-            "boot": false,
-            "playerType": 2,
-            "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-            "logo": "https://epg.112114.xyz/logo/{name}.png"
-        },
-        {
             "name": "欧华",
             "url": "https://888.iptv543.com/tvlist01.txt",
             "pass": false,
