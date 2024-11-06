@@ -3,19 +3,15 @@
     "spider": "https://github.com/Amanchi1208/am/raw/main/jar/fm.jar",
     "lives": [
         {
-            "name": "ETH",
-            "api": "https://tang.hz.cz/js/ethtv.js",
-            "type": 3,
-            "ua": "okhttp/4.12.0"
+            "name": "海外",
+            "url": "https://www.stream-link.org/stream-link.m3u",
+            "playerType": 2,
+            "ua": "AptvPlayer/1.3.3"
         },
         {
-            "name": "欧华",
-            "url": "https://888.iptv543.com/tvlist01.txt",
-            "pass": false,
-            "boot": false,
-            "playerType": 2,
-            "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-            "logo": "https://epg.112114.xyz/logo/{name}.png"
+            "name": "内地",
+            "url": "https://tang.hz.cz/zb/笑死.txt",
+            "ua": "okhttp/4.12.0"
         }
     ],
     "sites": [
@@ -33,6 +29,16 @@
                 "type": "rect",
                 "ratio": 1.433
             }
+        },
+        {
+            "key": "独播库",
+            "name": "独播库",
+            "type": 4,
+            "api": "https://tang.hz.cz/power/duboku?token=63ab37eb",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 0
         },
         {
             "key": "haiwaikan",

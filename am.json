@@ -3,13 +3,15 @@
     "spider": "https://ghp.ci/https://github.com/Amanchi1208/am/raw/main/jar/pg.jar",
     "lives": [
         {
-            "name": "live",
-            "url": "https://888.iptv543.com/tvlist01.txt",
-            "pass": false,
-            "boot": false,
+            "name": "海外",
+            "url": "https://www.stream-link.org/stream-link.m3u",
             "playerType": 2,
-            "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-            "logo": "https://epg.112114.xyz/logo/{name}.png"
+            "ua": "AptvPlayer/1.3.3"
+        },
+        {
+            "name": "内地",
+            "url": "https://tang.hz.cz/zb/笑死.txt",
+            "ua": "okhttp/4.12.0"
         }
     ],
     "sites": [
