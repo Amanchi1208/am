@@ -76,22 +76,6 @@
             }
         },
         {
-            "key": "nyys",
-            "name": "MXONE",
-            "type": 3,
-            "api": "csp_XPathFilter",
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1.433
-            },
-            "ext": "https://4tvbox.ggff.net/ys.json"
-        },
-        {
             "key": "新6V",
             "name": "新6V",
             "type": 3,
@@ -150,19 +134,6 @@
             "style": {
                 "type": "rect",
                 "ratio": 1.433
-            }
-        },
-        {
-            "key": "FirstAid",
-            "name": "急救",
-            "type": 3,
-            "api": "csp_FirstAid",
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 3.8
             }
         },
         {
