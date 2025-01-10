@@ -2,12 +2,12 @@
     "wallpaper": "https://jianbian.chuqiuyu.workers.dev",
     "spider": "https://github.com/Amanchi1208/am/raw/main/jar/fm.jar",
     "lives": [
-       {
-        "name": "live",
-        "api": "https://tang.hz.cz/js/live.js",
-        "type": 3,
-        "ext": "Andy"
-       }
+        {
+            "name": "live",
+            "api": "https://tang.hz.cz/js/live.js",
+            "type": 3,
+            "ext": "Andy"
+        }
     ],
     "sites": [
         {
@@ -30,6 +30,36 @@
             "name": "独播库",
             "type": 4,
             "api": "https://tang.hz.cz/power/duboku?token=63ab37eb",
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.433
+            }
+        },
+        {
+            "key": "UpFuHn",
+            "name": "UpFuHn",
+            "type": 4,
+            "api": "https://spider.doube.eu.org/spider?site=UpFuHn",
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.433
+            }
+        },
+        {
+            "key": "AiGuaTV",
+            "name": "AiGuaTV",
+            "type": 4,
+            "api": "https://spider.doube.eu.org/spider?site=AiGuaTV",
             "playerType": 2,
             "searchable": 1,
             "quickSearch": 1,
