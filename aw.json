@@ -3,15 +3,10 @@
     "spider": "https://github.com/Amanchi1208/am/raw/main/jar/fm.jar",
     "lives": [
         {
-            "name": "海外",
-            "url": "https://www.stream-link.org/stream-link.m3u",
-            "playerType": 2,
-            "ua": "AptvPlayer/1.3.3"
-        },
-        {
-            "name": "内地",
-            "url": "https://tang.hz.cz/zb/笑死.txt",
-            "ua": "okhttp/4.12.0"
+            "name": "live",
+            "api": "https://tang.hz.cz/js/live.js",
+            "type": 3,
+            "ext": "Andy"
         }
     ],
     "sites": [
@@ -35,6 +30,36 @@
             "name": "独播库",
             "type": 4,
             "api": "https://tang.hz.cz/power/duboku?token=63ab37eb",
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.433
+            }
+        },
+        {
+            "key": "UpFuHn",
+            "name": "UpFuHn",
+            "type": 4,
+            "api": "https://spider.doube.eu.org/spider?site=UpFuHn",
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.433
+            }
+        },
+        {
+            "key": "AiGuaTV",
+            "name": "AiGuaTV",
+            "type": 4,
+            "api": "https://spider.doube.eu.org/spider?site=AiGuaTV",
             "playerType": 2,
             "searchable": 1,
             "quickSearch": 1,
