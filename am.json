@@ -1,6 +1,6 @@
 {
     "wallpaper": "https://jianbian.chuqiuyu.workers.dev",
-    "spider": "https://ghp.ci/https://github.com/Amanchi1208/am/raw/main/jar/pg.jar",
+    "spider": "https://gh-proxy.com/https://github.com/Amanchi1208/am/raw/main/jar/pg.jar",
     "lives": [
         {
             "name": "live",
@@ -22,7 +22,7 @@
                 "type": "rect",
                 "ratio": 1.433
             },
-            "api": "https://ghp.ci/https://github.com/Amanchi1208/am/raw/main/js/search.js"
+            "api": "https://gh-proxy.com/https://github.com/Amanchi1208/am/raw/main/js/search.js"
         },
         {
             "key": "安博",
@@ -177,7 +177,7 @@
                 "type": "rect",
                 "ratio": 1.433
             },
-            "ext": "https://ghp.ci/https://github.com/Amanchi1208/am/raw/main/json/jp.json"
+            "ext": "https://gh-proxy.com/https://github.com/Amanchi1208/am/raw/main/json/jp.json"
         },
         {
             "key": "JOJO",
@@ -210,8 +210,8 @@
                 "type": "rect",
                 "ratio": 1.433
             },
-            "jar": "https://ghp.ci/https://github.com/Amanchi1208/am/raw/main/jar/XBPQ.jar",
-            "ext": "https://ghp.ci/https://github.com/Amanchi1208/am/raw/main/json/xb.json"
+            "jar": "https://gh-proxy.com/https://github.com/Amanchi1208/am/raw/main/jar/XBPQ.jar",
+            "ext": "https://gh-proxy.com/https://github.com/Amanchi1208/am/raw/main/json/xb.json"
         },
         {
             "key": "酷看",
@@ -326,8 +326,8 @@
                 "type": "rect",
                 "ratio": 1.433
             },
-            "jar": "https://ghp.ci/https://github.com/Amanchi1208/am/raw/main/jar/XBPQ.jar",
-            "ext": "https://ghp.ci/https://github.com/Amanchi1208/am/raw/main/json/bg.json"
+            "jar": "https://gh-proxy.com/https://github.com/Amanchi1208/am/raw/main/jar/XBPQ.jar",
+            "ext": "https://gh-proxy.com/https://github.com/Amanchi1208/am/raw/main/json/bg.json"
         },
         {
             "key": "Mayiys",
@@ -358,8 +358,8 @@
                 "type": "rect",
                 "ratio": 1.433
             },
-            "jar": "https://ghp.ci/https://github.com/Amanchi1208/am/raw/main/jar/XBPQ.jar",
-            "ext": "https://ghp.ci/https://github.com/Amanchi1208/am/raw/main/json/wc.json"
+            "jar": "https://gh-proxy.com/https://github.com/Amanchi1208/am/raw/main/jar/XBPQ.jar",
+            "ext": "https://gh-proxy.com/https://github.com/Amanchi1208/am/raw/main/json/wc.json"
         },
         {
             "key": "电影先生",
@@ -375,8 +375,8 @@
                 "type": "rect",
                 "ratio": 1.433
             },
-            "jar": "https://ghp.ci/https://github.com/Amanchi1208/am/raw/main/jar/XBPQ.jar",
-            "ext": "https://ghp.ci/https://github.com/Amanchi1208/am/raw/main/json/dy.json"
+            "jar": "https://gh-proxy.com/https://github.com/Amanchi1208/am/raw/main/jar/XBPQ.jar",
+            "ext": "https://gh-proxy.com/https://github.com/Amanchi1208/am/raw/main/json/dy.json"
         },
         {
             "key": "迅雷8",
@@ -392,8 +392,8 @@
                 "type": "rect",
                 "ratio": 1.433
             },
-            "jar": "https://ghp.ci/https://github.com/Amanchi1208/am/raw/main/jar/XBPQ.jar",
-            "ext": "https://ghp.ci/https://github.com/Amanchi1208/am/raw/main/json/xl.json"
+            "jar": "https://gh-proxy.com/https://github.com/Amanchi1208/am/raw/main/jar/XBPQ.jar",
+            "ext": "https://gh-proxy.com/https://github.com/Amanchi1208/am/raw/main/json/xl.json"
         },
         {
             "key": "巴士",
@@ -422,7 +422,7 @@
             "style": {
                 "type": "list"
             },
-            "ext": "https://ghp.ci/https://github.com/Amanchi1208/am/raw/main/txt/token.txt"
+            "ext": "https://gh-proxy.com/https://github.com/Amanchi1208/am/raw/main/txt/token.txt"
         },
         {
             "key": "本地",
@@ -440,8 +440,8 @@
             "searchable": 0,
             "quickSearch": 0,
             "changeable": 0,
-            "ext": "https://ghp.ci/https://github.com/Amanchi1208/am/raw/main/lib/tokenm.json",
-            "jar": "https://ghp.ci/https://github.com/Amanchi1208/am/raw/main/jar/fm.jar"
+            "ext": "https://gh-proxy.com/https://github.com/Amanchi1208/am/raw/main/lib/tokenm.json",
+            "jar": "https://gh-proxy.com/https://github.com/Amanchi1208/am/raw/main/jar/fm.jar"
         }
     ],
     "doh": [
