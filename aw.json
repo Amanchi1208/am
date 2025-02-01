@@ -86,6 +86,37 @@
             }
         },
         {
+            "key": "短剧",
+            "name": "短剧",
+            "type": 1,
+            "api": "http://jg.zhangqun66.com:8080",
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.433
+            }
+        },
+        {
+            "key": "youtube",
+            "name": "YouTube",
+            "type": 4,
+            "api": "http://jg.zhangqun66.com/yt/yt001.php",
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.433
+            },
+            "ext": "动作片#谍战剧playlist#沙雕穿越#中国动漫#穿越小说#影视解说#腾讯动漫#动物#风光#放松#8k video ultra hd#HDR#movie#经典音乐#documentary#bbc documentary"
+        },
+        {
             "key": "新6V",
             "name": "新6V",
             "type": 3,
