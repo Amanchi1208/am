@@ -26,36 +26,6 @@
             }
         },
         {
-            "key": "UpFuHn",
-            "name": "UpFuHn",
-            "type": 4,
-            "api": "https://spider.doube.eu.org/spider?site=UpFuHn",
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1.433
-            }
-        },
-        {
-            "key": "AiGuaTV",
-            "name": "AiGuaTV",
-            "type": 4,
-            "api": "https://spider.doube.eu.org/spider?site=AiGuaTV",
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1.433
-            }
-        },
-        {
             "key": "olys",
             "name": "欧乐",
             "type": 4,
