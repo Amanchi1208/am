@@ -104,22 +104,6 @@
             "ext": "caHR0cDovLzExMC40MC42NC4yMjU6ODk0NXxHOGt6QjF2WHdRcDlaN21GfEc4a3pCMXZYd1FwOVo3bUZ8MTAw"
         },
         {
-            "key": "星河",
-            "name": "星河",
-            "type": 3,
-            "api": "csp_Muou",
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1.433
-            },
-            "ext": "caHR0cDovL2EubXVxaXhoLnRvcDo1NjIzfOW5leWQr+aYn+ays3w0LjEuOA=="
-        },
-        {
             "key": "MU",
             "name": "MU",
             "type": 3,
