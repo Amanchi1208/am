@@ -14,7 +14,7 @@
             "key": "安博",
             "name": "安博",
             "type": 4,
-            "api": "https://tang.hz.cz/power/ub18?token=63ab37eb",
+            "api": "https://tang.hz.cz/power/ub18?token=b9fdfe20",
             "playerType": 2,
             "searchable": 1,
             "quickSearch": 1,
@@ -29,7 +29,37 @@
             "key": "olys",
             "name": "欧乐",
             "type": 4,
-            "api": "https://tang.hz.cz/power/olelive?token=63ab37eb",
+            "api": "https://tang.hz.cz/power/olelive?token=b9fdfe20",
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.433
+            }
+        },
+        {
+            "key": "HMR",
+            "name": "HMR",
+            "type": 4,
+            "api": "https://tang.hz.cz/power/heimuer?token=b9fdfe20",
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.433
+            }
+        },
+        {
+            "key": "UpFuHn",
+            "name": "UpFuHn",
+            "type": 4,
+            "api": "https://py.doube.eu.org/spider?site=UpFuHn",
             "playerType": 2,
             "searchable": 1,
             "quickSearch": 1,
