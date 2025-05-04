@@ -26,8 +26,8 @@
             }
         },
         {
-            "key": "独播库",
-            "name": "独播库",
+            "key": "HMR",
+            "name": "HMR",
             "type": 4,
             "api": "https://tang.hz.cz/power/hme?token==de3676b2",
             "playerType": 2,
