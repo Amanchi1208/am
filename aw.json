@@ -29,6 +29,21 @@
             "key": "独播库",
             "name": "独播库",
             "type": 4,
+            "api": "https://tang.hz.cz/power/hme?token==de3676b2",
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.433
+            }
+        },
+        {
+            "key": "独播库",
+            "name": "独播库",
+            "type": 4,
             "api": "https://tang.hz.cz/power/duboku?token=de3676b2",
             "playerType": 2,
             "searchable": 1,
